@@ -1,0 +1,7 @@
+# src/main/resources/aktionen.yml
+# Aktionen Seite configuration
+items:
+  "0":
+    item: "base64_encoded_item" # Ingame ändern
+    sell-price: 1.0
+    buy-price: 1.0

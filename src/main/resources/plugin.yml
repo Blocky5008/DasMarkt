@@ -1,0 +1,26 @@
+name: DasMarkt
+version: 2.0
+main: de.dasmarkt.DasMarkt
+api-version: 1.21
+author: Blocky
+description: A customizable market plugin with daily money limits.
+depend: [Vault]
+softdepend: [MiniMessage]
+
+commands:
+  markt:
+    description: Opens the market menu.
+    aliases: [market, m, adminshop]
+    usage: /<command>
+    permission: dasmarkt.use
+
+permissions:
+  dasmarkt.use:
+    description: Allows players to use the market.
+    default: true
+  dasmarkt.admin:
+    description: Allows players to use all market commands.
+    default: op
+  dasmarkt.reload:
+    description: Allows players to reload the config.
+    default: op

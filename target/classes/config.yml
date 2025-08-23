@@ -1,0 +1,10 @@
+# src/main/resources/config.yml
+# DasMarkt configuration file
+# Alle Nachrichten unterstützen MiniMessages.
+# Mehr Info zu MiniMessage: https://docs.adventure.kyori.net/minimessage
+prefix: "<gradient:#FF6840:#731701><b>DasMarkt</gradient> <gray>>> "
+currency: "€"
+maximum-money-gain: 100000.0 # Maximum Einnahmen mit dem Markt am Tag (von 5 Uhr)
+disabled-worlds:
+  - 'world_nether'
+  - 'world_the_end'

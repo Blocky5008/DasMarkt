@@ -1,0 +1,7 @@
+# src/main/resources/farmer.yml
+# Farmer page configuration
+items:
+  "0":
+    item: "BARRIER"
+    sell-price: 1.0
+    buy-price: 1.0
